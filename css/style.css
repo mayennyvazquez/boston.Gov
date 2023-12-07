@@ -1,0 +1,454 @@
+header>.header-bluesection {
+  background-color: #091f2f;
+  width: 100%;
+  height: 38.55px;
+  text-align: center;
+  color: white;
+  font-family: Montserrat, sans-serif;
+}
+
+.logo-city-Boston {
+  vertical-align: middle;
+}
+
+.Here-s-how-you-know {
+  text-decoration: underline;
+}
+
+header>.header-creamsection {
+  background: rgb(243, 243, 243);
+  width: 100%;
+  text-align: center;
+}
+
+.blocksection,
+.locksection {
+  display: inline-block;
+}
+
+h2 {
+  font-size: 13.32px;
+  font-family: Montserrat, Arial, sans-serif;
+  color: #288be4;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: left;
+}
+
+.blocksection>p,
+.locksection>p {
+  text-align: left;
+  width: 402.86px;
+  height: 36px;
+  justify-content: right;
+  color: #091f2f;
+  font-size: 13.32px;
+  font-family: Lora, Georgia, serif;
+}
+
+header>.header-whitesection {
+  background: white;
+  width: 100%;
+  text-align: center;
+}
+
+.menu-icon,
+.logo-mayor-seal,
+.navigation-menu {
+  display: inline-block;
+}
+
+.menu-icon {
+  width: 4%;
+  border: red 2px solid;
+  float: left;
+  display: inline-flex;
+  text-align: center;
+  flex-direction: column;
+  cursor: pointer;
+  height: 62px;
+  background-color: red;
+  color: white;
+  margin-right: 16px;
+  border: #091f2f 2px solid;
+}
+
+
+.bar {
+  width: 70%;
+  text-align: center;
+  height: 3px;
+  background-color: white;
+  margin: 6px;
+  transition: 0.4s;
+}
+
+.logo-mayor-seal {
+  width: 40%;
+  float: left;
+}
+
+section>img.Logo-of-City-Boston-blackwriting {
+  float: left
+}
+
+section>nav>.mayor {
+  line-height: 4;
+  float: left;
+  margin-left: 15px;
+}
+
+.seal-Log {
+  float: right;
+}
+
+.navigation-menu {
+  width: 50%;
+  justify-content: right;
+
+}
+
+.navigation-menu>ul>li {
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 15px;
+  font-family: Montserrat, Arial, sans-serif;
+  font-size: 14px;
+}
+
+.Welcome-to-Boston-transparent {
+  background-image: url("../img/city-skyline.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 350px;
+  opacity: 0.4;
+  border: #045d9d 1px solid;
+  /*background-color:rgb(49,97,149);*/
+
+}
+
+aside {
+  background-color: #045d9d;
+  width: 100%;
+  height: 350px;
+  display: inline-block;
+  
+}
+
+.date-section {
+  background-color: white;  
+  font-size: 15px;
+  font-family: Montserrat,
+    Arial,
+    sans-serif;
+  height: 25px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 5%;
+  width: 100%;
+} 
+
+.box-date {
+  width: 100%;
+  background-color: white;
+  height: 28px;
+  display: inline-block;
+  color: #091f2f;
+  width: 20%;
+  font-weight: 700;
+  text-transform: uppercase;
+  height: 50% ;
+}
+
+
+.left-line {background-color: black;
+border: black 6px solid;
+width: 38%;
+float: left;
+}
+
+.right-line {background-color: black;
+  border: black 6px solid;
+  width: 38%;
+  float: right;
+  }
+.main-content {
+  height: 45%;
+  width: 100%;
+  text-align: center;
+
+}
+
+main>aside>section>section>p {
+  font-family: Lora, Georgia, serif;
+  font-size: 35px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+main>aside>section>section>h1 {
+  font-family: Montserrat, Arial, sans-serif;
+  font-size: 90px;
+  text-align: center;
+  color: #fff;
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+main>section {
+  text-align: center;
+}
+
+main>section>section>hr {
+  display: inline-block;
+  width: 300px;
+  justify-content: center;
+  color: #091f2f;
+  margin: 0%;
+}
+
+
+
+.operating-hours,
+.class-recycling,
+.stree-cleaning,
+.parking-meters,
+.two-lot {
+  display: inline-block;
+  width: 218.16px;
+  vertical-align: top;
+
+}
+
+.operating-hours>h3 {
+  color: #1871bd;
+  margin-bottom: 18px;
+  text-transform: uppercase;
+  font-family: Montserrat, Arial, sans-serif;
+}
+
+.class-recycling>h3 {
+  color: #1871bd;
+  margin-bottom: 18px;
+  text-transform: uppercase;
+  font-family: Montserrat, Arial, sans-serif;
+}
+
+.stree-cleaning>h3 {
+  color: #1871bd;
+  margin-bottom: 18px;
+  text-transform: uppercase;
+  font-family: Montserrat, Arial, sans-serif;
+}
+
+.parking-meters>h3 {
+  color: #1871bd;
+  margin-bottom: 18px;
+  text-transform: uppercase;
+  font-family: Montserrat, Arial, sans-serif;
+}
+
+.two-lot>h3 {
+  color: #1871bd;
+  margin-bottom: 18px;
+  text-transform: uppercase;
+  font-family: Montserrat, Arial, sans-serif;
+}
+
+
+.operating-hours>p {
+  color: #091f2f;
+  margin-bottom: 18px;
+  font-family: Lora,
+    Georgia,
+    serif;
+  text-align: center;
+  line-height: 1.5;
+
+}
+
+.class-recycling>p {
+  color: #091f2f;
+  margin-bottom: 18px;
+  font-family: Lora,
+    Georgia,
+    serif;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.stree-cleaning>p {
+  color: #091f2f;
+  margin-bottom: 18px;
+  font-family: Lora,
+    Georgia,
+    serif;
+  text-align: center;
+  line-height: 1.5;
+
+}
+
+.parking-meters>p {
+  color: #091f2f;
+  margin-bottom: 18px;
+  font-family: Lora,
+    Georgia,
+    serif;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.two-lot>p {
+  color: #091f2f;
+  margin-bottom: 18px;
+  font-family: Lora,
+    Georgia,
+    serif;
+  text-align: center;
+  line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.header-whitesection {
+  background-color: #fff;
+  width: 100%;
+  height: 65px;
+  color: #091f2f;
+  border: red 2px solid;
+  text-align: center;
+  /*display: flex;*/
+/*display: inline-block;
+}
+
+.menu-icon, .logo-mayor-seal, .navigation-menu{display: inline-block;
+border: blue 2px solid;}
+
+.menu-icon{ width: 4%;}
+.logo-mayor-seal{ width: 31%;}
+.navigation-menu {width: 55%;}
+
+.menu-icon {
+  display:inline-flex;
+  float: left;
+  text-align: center;
+  flex-direction:column;
+  cursor:pointer;
+  width: 4%;
+  height: 62px;
+  background-color: red;
+  color: white;
+  border: red 1px solid;
+  margin-right: 16px;
+  border: #091f2f 2px solid;
+}
+
+.bar{
+  width:70%;
+  text-align: center;
+  height: 3px;
+  background-color: white;
+  margin: 6px;
+  transition: 0.4s;
+}
+
+
+/*section>.logo-mayor-seal{display:inline-flex;
+  float: left;
+  text-align: center;
+  border:blue 2px solid;
+  width: 31%;
+  height: 62px;
+}
+
+.Logo-of-City-Boston-blackwriting{
+  margin-right:14px;
+  line-height: normal;
+  border: #091f2f 2px solid}
+
+section>nav{border: red 2px solid;
+  display: ;
+  width: 100%; 
+  height: 62px;
+  line-height:3;
+  justify-content:space-between;
+
+  }
+  .mayor{border: green 2px solid;
+  float: left;}
+
+  .seal-Log{float:right;
+  border: green 2px solid}
+
+   section>ul>li{
+    width:60%;
+    height: 62px;
+    border: brown 2px solid;
+    display: inline-block;
+    justify-content:space-between;}
+
+
+/*.mayor{;
+  height:auto;
+  width:auto;
+  font-size:16px;
+  line-height:1;
+}
+  
+  /*justify-content:center;*/
+
+
+/*.navigation-menu>ul{
+width: 55%;
+height: 65px;
+
+
+}
+
+section>ul>li{ border: #091f2f 2px solid;
+  align-items: ;}
+
+/*section>.logo-city-Boston
+{ 
+  display: flex;
+  width: 160px;
+  height: 21.44px;
+  border: black 2px solid;
+}
+
+
+/*
+font-family: Lora,Georgia,serif;
+background: rgb(243,243,243)
+text-align: center;
+font-family: Montserrat,sans-serif;
+
+.menu-icon.active .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  
+  .menu-icon.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .menu-icon.active .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }

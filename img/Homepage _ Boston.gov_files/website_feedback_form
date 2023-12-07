@@ -1,0 +1,138 @@
+.webform-submission-website-feedback-form-form {
+    max-width: 700px;
+    display: block;
+    position: relative;
+    margin: auto;
+    color: #091F2F;
+}
+.webform-submission-website-feedback-form-form .survey_title_container {
+    padding: 2px 30px;
+    color: #fff;
+    background-color: #1871bd;
+}
+.webform-submission-website-feedback-form-form .survey_title_container h4 {
+    margin: 20px 0 0;
+    color: #fff;
+    font: normal normal bold 18px/30px Montserrat;
+    letter-spacing: 0.18px;
+}
+.webform-submission-website-feedback-form-form .survey_title_container p {
+    font: normal normal normal 18px/30px Lora;
+    letter-spacing: 0.18px;
+    margin: 0 0 15px;
+}
+.webform-submission-website-feedback-form-form .js-form-type-radio .form-radio[type=radio] {
+    display: inline-block;
+    background: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    vertical-align: middle;
+}
+.webform-submission-website-feedback-form-form .webform-options-display-side-by-side > div {
+    position: relative;
+    width: 120px;
+}
+.webform-submission-website-feedback-form-form .js-form-type-radio .form-radio {
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    width: 35px;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+}
+.webform-submission-website-feedback-form-form .form-radio:before {
+  content: "";
+  display: block;
+  height: 35px;
+  width: 35px;
+  background-color: #fff;
+  border: 3px solid #091f2f;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.webform-submission-website-feedback-form-form .form-radio:checked:before {
+  background: #fff url(https://patterns.boston.gov/images/public/icons/check.svg) no-repeat 50%;
+}
+.webform-submission-website-feedback-form-form .js-form-type-radio .option {
+    color: #091f2f;
+    font-size: calc(12px + 4 * ((100vw - 480px) / 960));
+    line-height: 1.2;
+    margin-left: 7px;
+    width: calc(100% - 42px);
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline;
+}
+.webform-submission-website-feedback-form-form .feedback_form_button {
+    text-align: center;
+}
+.webform-submission-website-feedback-form-form .share_more_wrapper textarea {
+    border: 3px solid #091f2f;
+    width: 100%;
+    font: italic normal normal 18px/26px Lora;
+    letter-spacing: 0px;
+    color: #091F2F;
+    padding: 10px
+}
+.webform-submission-website-feedback-form-form .survey_box {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0 20px 30px;
+}
+.webform-submission-website-feedback-form-form .yes_no_wrapper {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+.webform-submission-website-feedback-form-form .yes_no_wrapper .description, .webform-submission-website-feedback-form-form .share_more_wrapper .description {
+    font-style: normal;
+    line-height: 30px;
+}
+.webform-submission-website-feedback-form-form .description span {
+    color:#d74b46;
+}
+.webform-submission-website-feedback-form-form ul {
+    margin-top: 0;
+}
+.webform-submission-website-feedback-form-form ul li {
+    background: none;
+    list-style: disc;
+    margin-left: 18px;
+    margin-bottom: 8px;
+    padding-left: 0;
+    font: normal normal normal 18px/30px Lora;
+    letter-spacing: 0px;
+    color: #091F2F;
+}
+.webform-submission-website-feedback-form-form .survey_box {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0 20px 30px;
+}
+.webform-submission-website-feedback-form-form .hidden_text_wrapper p {
+    line-height: 25px;
+    padding: 0 10px;
+}
+.webform-submission-website-feedback-form-form .hidden_text_wrapper p {
+    margin: 15px 0 5px;
+}
+.webform-submission-website-feedback-form-form .webform-confirmation__message .survey_box {
+    padding: 5px 20px 30px;
+}
+.webform-submission-website-feedback-form-form .webform-confirmation__message {
+    margin: 25px;
+}
+@media screen and (max-width: 480px) {
+  .webform-submission-website-feedback-form-form .form-radio:before {
+    top: 4px;
+  }
+}
+@media screen and (min-width: 767px) {
+  .webform-submission-website-feedback-form-form .js-form-type-radio .form-radio, .webform-submission-website-feedback-form-form .js-form-type-radio .form-radio:before {
+    height: 42px;
+    width: 42px;
+  }
+}
